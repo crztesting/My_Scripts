@@ -1,6 +1,5 @@
-wait(30)
 _G.autoQuit = true
-while true do task.wait(147)
+while true do task.wait(44)
   local args = {
     [1] = "Exit"
   }
