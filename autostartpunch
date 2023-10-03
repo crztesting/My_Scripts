@@ -1,4 +1,3 @@
-wait(25)
 _G.autoStart = true
 while true do task.wait(4)
   local args = {
