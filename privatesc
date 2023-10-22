@@ -1,13 +1,5 @@
 game:GetService("Players").LocalPlayer.PlayerScripts["Idle Tracking"].Enabled = false
 
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fc715fb43902af268c335a5c7269be5e.lua"))()
-
-wait(7)
-local x = 2386.429931640625
-local y = 8.108357429504395
-local z = -1779.7373046875
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x, y, z)
-
 local StarterGui = game:GetService('StarterGui')
 StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false)
 
@@ -15,7 +7,15 @@ game:GetService('StarterGui'):SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, fal
 
 game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.EmotesMenu, false)
 
+wait(7)
+local x = 2386.429931640625
+local y = 8.108357429504395
+local z = -1779.7373046875
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x, y, z)
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fc715fb43902af268c335a5c7269be5e.lua"))()
 game:GetService("RunService"):Set3dRenderingEnabled(false)
+
 
 wait(5)
 local WEBHOOK_URL = "https://discord.com/api/webhooks/1136034464003260497/qTL1zLmLYYdiLXAy_ODiiOZs-ojUKJh3_Ihy1e7ZI0WbelzCuTqeISxXrFT97Kht6Nl9"
