@@ -1,3 +1,6 @@
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fc715fb43902af268c335a5c7269be5e.lua"))()
+game:GetService("RunService"):Set3dRenderingEnabled(false)
+
 game:GetService("Players").LocalPlayer.PlayerScripts["Idle Tracking"].Enabled = false
 
 local StarterGui = game:GetService('StarterGui')
@@ -12,9 +15,6 @@ local x = 2386.429931640625
 local y = 8.108357429504395
 local z = -1779.7373046875
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x, y, z)
-
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fc715fb43902af268c335a5c7269be5e.lua"))()
-game:GetService("RunService"):Set3dRenderingEnabled(false)
 
 
 wait(5)
