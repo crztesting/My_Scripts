@@ -1,8 +1,0 @@
-_G.autoStart = true
-while true do task.wait(4)
-  local args = {
-    [1] = "StartDungeon"
-  }
-  
-  game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("DungeonEvent"):FireServer(unpack(args))
-end
