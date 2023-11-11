@@ -1,1 +1,53 @@
-loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+getgenv().OutputData = {
+    ["Cooldown"] = 60,
+    ["Type"] = "RAM",
+}
+getgenv().DitBF = {
+    ["Performance"] = {
+        ["Hide Map"] = true,
+        ["Black Screen"] = true,
+        ["Lock FPS"] = 20,
+    },
+    ["Fast Attack Duration/Cooldown"] = {3, 5},
+    ["Raid if Maxed Blox Fruit"] = false,
+    ["Farm boss drops while not maxed"] = false,
+    ["Farm Blox Fruit Mastery if maxed"] = false,
+    ["Farm method after maxed"] = "Raid Boss Farm - Cake Prince Farm",
+    ["Extra time Farm until unlock skills"] = false,
+    ["Hop Server"] = {
+        ["Type"] = {
+            ["[Main] Server Hop"] = true,
+            ["[Farm] Server Hop if Player nearby"] = false,
+            ["[Sea 3 Quest] Server Hop for 1M+ Blox Fruit"] = true,
+        },
+        ["Delay"] = 10,
+    },
+    ["Do Action"] = {
+        ["Get Godhuman"] = true,
+        ["Get Rengoku"] = false,
+        ["Get True Triple Katana"] = false,
+        ["Get Hallow Scythe"] = false,
+        ["Get Cursed Dual Katana"] = true,
+        ["Get Soul Guitar"] = true,
+        ["Awake Current Blox Fruit"] = false,
+        ["Get Mirror Fractal"] = false,
+    },
+    ["Buy Haki"] = {
+        ["Enhancement"] = false,
+        ["Skyjump"] = false,
+        ["Flash Step"] = false,
+        ["Observation"] = false,
+        ["Legendary Enhancement"] = false,
+    },
+    ["Auto Race"] = "None",
+    ["Blox Fruit Sniper"] = {},
+    ["Main Blox Fruit"] = {},
+    ["Eat Sniper Blox Fruits"] = true,
+    ["Account Panel"] = {
+        ["Enable"] = true,
+        ["Delay"] = 300,
+        ["Note"] = "Anomaly",
+    },
+}
+getgenv().Key = "Whitelist Key"
+repeat wait()spawn(function()loadstring(game:HttpGet("https://ditbloxfruit.cc/client.lua"))()end)wait(60)until S_Timer
