@@ -1,14 +1,8 @@
-getgenv().OutputData = {
-    ["Cooldown"] = 60,
-    ["Type"] = "RAM",
-}
 getgenv().DitBF = {
     ["Performance"] = {
-        ["Hide Map"] = true,
         ["Black Screen"] = true,
         ["Lock FPS"] = 20,
     },
-    ["Fast Attack Duration/Cooldown"] = {2, 5},
     ["Raid if Maxed Blox Fruit"] = true,
     ["Farm boss drops while not maxed"] = false,
     ["Farm Blox Fruit Mastery if maxed"] = false,
@@ -16,11 +10,11 @@ getgenv().DitBF = {
     ["Extra time Farm until unlock skills"] = true,
     ["Hop Server"] = {
         ["Type"] = {
-            ["[Main] Server Hop"] = false,
+            ["[Main] Server Hop"] = true,
             ["[Farm] Server Hop if Player nearby"] = false,
-            ["[Sea 3 Quest] Server Hop for 1M+ Blox Fruit"] = false,
+            ["[Sea 3 Quest] Server Hop for 1M+ Blox Fruit"] = true,
         },
-        ["Delay"] = 10,
+        ["Delay"] = 60,
     },
     ["Do Action"] = {
         ["Get Godhuman"] = true,
@@ -50,4 +44,4 @@ getgenv().DitBF = {
     },
 }
 getgenv().Key = "k4caaca6d0b2ff216ee7eb0f"
-repeat wait()spawn(function()loadstring(game:HttpGet("https://ditbloxfruit.cc/client.lua"))()end)wait(45)until S_Timer
+loadstring(game:HttpGet("https://ditbloxfruit.cc/client.lua"))()
