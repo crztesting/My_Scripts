@@ -4,16 +4,16 @@ getgenv().OutputData = {
 }
 getgenv().DitBF = {
     ["Performance"] = {
-        ["Hide Map"] = false,
-        ["Black Screen"] = false,
+        ["Hide Map"] = true,
+        ["Black Screen"] = true,
         ["Lock FPS"] = 20,
     },
     ["Fast Attack Duration/Cooldown"] = {2, 5},
-    ["Raid if Maxed Blox Fruit"] = false,
+    ["Raid if Maxed Blox Fruit"] = true,
     ["Farm boss drops while not maxed"] = false,
     ["Farm Blox Fruit Mastery if maxed"] = false,
     ["Farm method after maxed"] = "Raid Boss Farm - Cake Prince Farm",
-    ["Extra time Farm until unlock skills"] = false,
+    ["Extra time Farm until unlock skills"] = true,
     ["Hop Server"] = {
         ["Type"] = {
             ["[Main] Server Hop"] = false,
@@ -27,8 +27,8 @@ getgenv().DitBF = {
         ["Get Rengoku"] = false,
         ["Get True Triple Katana"] = false,
         ["Get Hallow Scythe"] = false,
-        ["Get Cursed Dual Katana"] = true,
-        ["Get Soul Guitar"] = true,
+        ["Get Cursed Dual Katana"] = false,
+        ["Get Soul Guitar"] = false,
         ["Awake Current Blox Fruit"] = false,
         ["Get Mirror Fractal"] = false,
     },
