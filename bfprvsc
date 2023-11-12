@@ -16,9 +16,9 @@ getgenv().DitBF = {
     ["Extra time Farm until unlock skills"] = false,
     ["Hop Server"] = {
         ["Type"] = {
-            ["[Main] Server Hop"] = true,
+            ["[Main] Server Hop"] = false,
             ["[Farm] Server Hop if Player nearby"] = false,
-            ["[Sea 3 Quest] Server Hop for 1M+ Blox Fruit"] = true,
+            ["[Sea 3 Quest] Server Hop for 1M+ Blox Fruit"] = false,
         },
         ["Delay"] = 10,
     },
@@ -42,7 +42,7 @@ getgenv().DitBF = {
     ["Auto Race"] = "None",
     ["Blox Fruit Sniper"] = {},
     ["Main Blox Fruit"] = {},
-    ["Eat Sniper Blox Fruits"] = true,
+    ["Eat Sniper Blox Fruits"] = false,
     ["Account Panel"] = {
         ["Enable"] = true,
         ["Delay"] = 300,
