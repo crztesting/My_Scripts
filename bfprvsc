@@ -10,9 +10,9 @@ getgenv().DitBF = {
     ["Extra time Farm until unlock skills"] = true,
     ["Hop Server"] = {
         ["Type"] = {
-            ["[Main] Server Hop"] = true,
+            ["[Main] Server Hop"] = false,
             ["[Farm] Server Hop if Player nearby"] = false,
-            ["[Sea 3 Quest] Server Hop for 1M+ Blox Fruit"] = true,
+            ["[Sea 3 Quest] Server Hop for 1M+ Blox Fruit"] = false,
         },
         ["Delay"] = 60,
     },
