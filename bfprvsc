@@ -1,15 +1,9 @@
-wait(15)
-local StarterGui = game:GetService('StarterGui')
-StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false)
-
-game:GetService('StarterGui'):SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, false)
-end
-
-
 getgenv().DitBF = {
     ["Performance"] = {
+        ["Hide Map"] = false,
         ["Black Screen"] = true,
         ["Lock FPS"] = 20,
+        ["Ultra Optimize"] = false,
     },
     ["Fast Attack Duration/Cooldown"] = {2, 5},
     ["Raid if Maxed Blox Fruit"] = true,
@@ -57,3 +51,8 @@ getgenv().DitBF = {
 }
 getgenv().Key = "k4caaca6d0b2ff216ee7eb0f"
 repeat wait()spawn(function()loadstring(game:HttpGet("https://ditbloxfruit.cc/client.lua"))()end)wait(20)until S_Timer
+
+local StarterGui = game:GetService('StarterGui')
+StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false)
+
+game:GetService('StarterGui'):SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, false)
