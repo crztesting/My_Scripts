@@ -51,8 +51,3 @@ getgenv().DitBF = {
 }
 getgenv().Key = "k4caaca6d0b2ff216ee7eb0f"
 repeat wait()spawn(function()loadstring(game:HttpGet("https://ditbloxfruit.cc/client.lua"))()end)wait(20)until S_Timer
-
-local StarterGui = game:GetService('StarterGui')
-StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false)
-
-game:GetService('StarterGui'):SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, false)
