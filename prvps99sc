@@ -12,7 +12,7 @@ game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.EmotesMenu, false)
 _G.autoFlyvip = true
 while true do task.wait()
     local x = 210.92645263671875
-    local y = 32
+    local y = 37
     local z = -587.4800415039062
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x, y, z)
 end
