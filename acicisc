@@ -1,0 +1,18 @@
+setfpscap(10)
+
+game:GetService("Players").LocalPlayer.PlayerScripts["Idle Tracking"].Enabled = false
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua'))()
+
+wait(7)
+local x = 5296.8984375 
+local y = -15.621475219726562
+local z = 436.05413819359375
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x, y, z)
+
+local StarterGui = game:GetService('StarterGui')
+StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false)
+
+game:GetService('StarterGui'):SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, false)
+
+game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.EmotesMenu, false)
