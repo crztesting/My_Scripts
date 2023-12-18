@@ -3,3 +3,13 @@ setfpscap(10)
 game:GetService("Players").LocalPlayer.PlayerScripts["Idle Tracking"].Enabled = false
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fc715fb43902af268c335a5c7269be5e.lua"))()
+
+wait(5)
+game:GetService("RunService"):Set3dRenderingEnabled(false)
+
+local StarterGui = game:GetService('StarterGui')
+StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false)
+
+game:GetService('StarterGui'):SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, false)
+
+game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.EmotesMenu, false)
