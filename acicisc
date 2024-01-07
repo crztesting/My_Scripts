@@ -5,9 +5,9 @@ game:GetService("Players").LocalPlayer.PlayerScripts["Idle Tracking"].Enabled = 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua'))()
 
 wait(7)
-local x = 5296.8984375 
-local y = -15.621475219726562
-local z = 436.05413819359375
+local x = 6967.9853515625
+local y = -156.05633544921875
+local z = 4101.22265625
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x, y, z)
 
 wait(5)
