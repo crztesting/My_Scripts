@@ -11,7 +11,7 @@ local z = 4101.22265625
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x, y, z)
 
 wait(5)
-game:GetService("RunService"):Set3dRenderingEnabled(true)
+game:GetService("RunService"):Set3dRenderingEnabled(false)
 
 local StarterGui = game:GetService('StarterGui')
 StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false)
