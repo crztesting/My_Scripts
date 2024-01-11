@@ -1,4 +1,4 @@
-setfpscap(10)
+setfpscap(7)
 
 game:GetService("Players").LocalPlayer.PlayerScripts["Idle Tracking"].Enabled = false
 
