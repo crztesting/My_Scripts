@@ -96,7 +96,7 @@ getgenv().Configs = {
     
     -- CPU
     
-    LockFPS = 20,
+    LockFPS = 17,
     LockFPSNow = true,
     WhiteScreen = true
 }
