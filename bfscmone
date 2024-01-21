@@ -4,10 +4,10 @@ _G.KaitanMode = true
 -- Candy Event
 _G.CandyConfigs = {
     ExpX2 = true,
-    Trade500Fragment = false,
-    Trade200Fragment = false
+    Trade500Fragment = true,
+    Trade200Fragment = true
 }
-shared.Team = "Pirates"
+shared.Team = "Marines"
 getgenv().Configs = {
     FpsBoost = false,
     SkipFarm = true,
@@ -92,12 +92,12 @@ getgenv().Configs = {
     
     StartWebhook = true,
     WebhookURL = "https://discord.com/api/webhooks/1197511269939433533/H40PN6wo3cURjNpZ0y_Di89ZfYax95Afeu2iY6ryp3EUYa5L0Fk2sgdOi94yo_q41RKw",
-    WebhookSettings = "Send On Level Max And Every 10 min", -- "Send Every 10 min","Send On Level Max And Every 10 min"
+    WebhookSettings = "Send Every 10 min", -- "Send Every 10 min","Send On Level Max And Every 10 min"
     
     -- CPU
     
-    LockFPS = 15,
-    LockFPSNow = true,
+    LockFPS = 20,
+    LockFPSNow = false,
     WhiteScreen = true
 }
 _G.Key = "LuxuryV2_80ysbu04ohcq56690347"
