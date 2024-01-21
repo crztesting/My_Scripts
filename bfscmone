@@ -9,7 +9,7 @@ _G.CandyConfigs = {
 }
 shared.Team = "Pirates"
 getgenv().Configs = {
-    FpsBoost = true,
+    FpsBoost = false,
     SkipFarm = true,
     HopIfCantKill = true,
     BlockAllHop = false,
