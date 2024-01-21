@@ -9,7 +9,7 @@ _G.CandyConfigs = {
 }
 shared.Team = "Marines"
 getgenv().Configs = {
-    FpsBoost = false,
+    FpsBoost = true,
     SkipFarm = true,
     HopIfCantKill = true,
     BlockAllHop = false,
@@ -97,7 +97,7 @@ getgenv().Configs = {
     -- CPU
     
     LockFPS = 20,
-    LockFPSNow = false,
+    LockFPSNow = true,
     WhiteScreen = true
 }
 _G.Key = "LuxuryV2_80ysbu04ohcq56690347"
