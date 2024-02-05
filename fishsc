@@ -4,7 +4,7 @@ getgenv().config = {
     autoPresents = true,
     updateStats = true,
     invisWater = true,
-    renderer = false,
+    renderer = true,
     
     mailUsers = {
         "comer_item",
