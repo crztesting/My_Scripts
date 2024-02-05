@@ -9,9 +9,9 @@ getgenv().config = {
     mailUsers = {
         "comer_item",
     },
-    mailSetting = "ALL",
+    mailSetting = "Diamonds",
     mailAmount = 1,
-    mailTimer = 600,
+    mailTimer = 14400,
     mailAuto = true,
     
 }
