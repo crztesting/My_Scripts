@@ -1,5 +1,18 @@
-getgenv().AuthKey = "HUGE_8hpPoDt3FNr0"
-getgenv().LoadSettings = {
-    Example_Setting = Example_Value
+getgenv().config = {
+    placetoFish = "AdvancedFishing",
+    autoFishing = true,
+    autoPresents = true,
+    updateStats = true,
+    invisWater = true,
+    renderer = true,
+    
+    mailUsers = {
+        "comer_item",
+    },
+    mailSetting = "ALL",
+    mailAmount = 1,
+    mailTimer = 900,
+    mailAuto = false,
+    
 }
-loadstring(game:HttpGet("https://HugeGames.io/ps99"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/101cd33fdd3891b8a27a4f36df49b01c.lua"))()
