@@ -11,8 +11,8 @@ getgenv().config = {
     },
     mailSetting = "ALL",
     mailAmount = 1,
-    mailTimer = 900,
-    mailAuto = false,
+    mailTimer = 600,
+    mailAuto = true,
     
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/101cd33fdd3891b8a27a4f36df49b01c.lua"))()
