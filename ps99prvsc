@@ -1,20 +1,28 @@
-getgenv().AuthKey = "HUGE_8hpPoDt3FNr0"
-getgenv().LoadSettings = {
+repeat wait() until game:IsLoaded()
+task.spawn(function()
+getgenv().config = {
+    autoWorld = true,
+    petSpeed = false,
+    rendering = false,
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/46373f8b54c41828b1996fefea20d42a.lua"))()
+end)
+
+task.spawn(function()
+    task.wait(30)
+    getgenv().AuthKey = "HUGE_8hpPoDt3FNr0"
+    getgenv().LoadSettings = {
     Example_Setting = Example_Value
 }
 loadstring(game:HttpGet("https://HugeGames.io/ps99"))()
+end)
 
-setfpscap(20)
+wait(5)
 
-for i,v in pairs(getconnections(game.Players.LocalPlayer.Idled)) do
-  v:Disable()
-end
+local StarterGui = game:GetService('StarterGui')
+StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false)
 
-wait(15)
-_G.lockEnd = true
-while true do taskwait()
-    local x = 415.8285827636719
-    local y = 16.237483978271484
-    local z = 2665.518310546875
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x, y, z)
-end
+game:GetService('StarterGui'):SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, false)
+
+game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.EmotesMenu, false)
+end)
