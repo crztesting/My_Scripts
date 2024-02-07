@@ -16,12 +16,3 @@ task.spawn(function()
 }
 loadstring(game:HttpGet("https://HugeGames.io/ps99"))()
 end)
-
-wait(5)
-
-local StarterGui = game:GetService('StarterGui')
-StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false)
-
-game:GetService('StarterGui'):SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, false)
-
-game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.EmotesMenu, false)
