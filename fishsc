@@ -11,7 +11,7 @@ getgenv().config = {
     sendDiamonds = true, -- automail diamonds
 
     minShards = 150, -- minimum shards to send (when sendShards = true)
-    minDiamonds = 3000000, -- minimum diamonds to send (when sendDiamonds = true)
+    minDiamonds = 3100000, -- minimum diamonds to send (when sendDiamonds = true)
     keepDiamonds = 100000, -- amount of diamonds to keep
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/1234dd04032e94c031f4e19f86c483c9.lua"))()
