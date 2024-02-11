@@ -1,9 +1,9 @@
 repeat wait() until game:IsLoaded()
 task.spawn(function()
 getgenv().config = {
-    autoWorld = false,
+    autoWorld = true,
     petSpeed = false,
-    rendering = false,
+    rendering = true,
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/46373f8b54c41828b1996fefea20d42a.lua"))()
 end)
