@@ -14,4 +14,4 @@ getgenv().config = {
     minDiamonds = 3100000, -- minimum diamonds to send (when sendDiamonds = true)
     keepDiamonds = 100000, -- amount of diamonds to keep
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/1234dd04032e94c031f4e19f86c483c9.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/29ed908d75b673180ef22ff96a3b9800.lua"))()
