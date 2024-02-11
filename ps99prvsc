@@ -1,11 +1,16 @@
 repeat wait() until game:IsLoaded()
 task.spawn(function()
 getgenv().config = {
+    autoClaimMail = false,
+    stopRebirth2 = false,
+    autoRebirth = true,
+    autoPotion = true,
+    autoFruit = false,
     autoWorld = true,
     petSpeed = false,
-    rendering = true,
+    autoTap = false,
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/46373f8b54c41828b1996fefea20d42a.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/23f50eb32fecaee24384d6ccfcf2a231.lua"))(
 end)
 
 task.spawn(function()
