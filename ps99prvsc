@@ -10,7 +10,7 @@ getgenv().config = {
     petSpeed = false,
     autoTap = false,
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/23f50eb32fecaee24384d6ccfcf2a231.lua"))(
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/23f50eb32fecaee24384d6ccfcf2a231.lua"))()
 end)
 
 task.spawn(function()
