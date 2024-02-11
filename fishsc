@@ -1,17 +1,18 @@
 getgenv().config = {
-    autoFish = true, -- auto fish 
-    autoPresents = true, -- collect presents
-    placetoFish = "AdvancedFishing", -- area to fish
-    invisWater = true, -- invis water
+    autoFish = true,
+    placetoFish = "AdvancedFishing",
+    autoPresents = true,
+    invisWater = true,
 
-    userToMail = "comer_item", -- username to automail to
-    autoMail = true, -- automail
-    sendHuges = true, -- automail huges (corgis)
-    sendShards = true, -- automail shards
-    sendDiamonds = true, -- automail diamonds
+    autoClaimMail = false,
+    userToMail = "comer_item",
+    autoMail = true,
+    sendHuges = true,
+    sendShards = true,
 
-    minShards = 150, -- minimum shards to send (when sendShards = true)
-    minDiamonds = 3100000, -- minimum diamonds to send (when sendDiamonds = true)
-    keepDiamonds = 100000, -- amount of diamonds to keep
+    sendDiamonds = true,
+    minShards = 200,
+    minDiamonds = 3100000,
+    keepDiamonds = 100000,
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/29ed908d75b673180ef22ff96a3b9800.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/02273c5629989a981ab347a090407970.lua"))()
