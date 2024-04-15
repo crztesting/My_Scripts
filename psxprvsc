@@ -2,7 +2,7 @@ setfpscap(7)
 
 game:GetService("Players").LocalPlayer.PlayerScripts["Idle Tracking"].Enabled = false
 
-loadstring(game:HttpGet('https://raw.githubusercontent.com/crztesting/privatefldr/main/psxprvsc'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua'))()
 
 wait(7)
 local x = 6967.9853515625
