@@ -1,3 +1,5 @@
+repeat wait() until game:IsLoaded()
+task.spawn(function()
 script_key="iYijuRAVjzwMYpqdUrkmhAHqCrSlQFgD";
 
 _G.GWEBHOOK_USERID = "484739592239579136" 
@@ -18,3 +20,14 @@ _G.GIGNORE_VIP = true
 _G.GREBIRTH_TO = 8
 _G.GCOLLECT_FREE_ITEMS = true
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
+end)
+
+task.spawn(function()
+    task.wait(5)
+local StarterGui = game:GetService('StarterGui')
+StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false)
+
+game:GetService('StarterGui'):SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, false)
+
+game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.EmotesMenu, false)
+end)
