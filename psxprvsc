@@ -8,8 +8,6 @@ local y = -156.05633544921875
 local z = 4101.22265625
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x, y, z)
 
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua'))()
-
 wait(3)
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua'))()
 
