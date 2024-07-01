@@ -2,14 +2,13 @@ setfpscap(7)
 
 game:GetService("Players").LocalPlayer.PlayerScripts["Idle Tracking"].Enabled = false
 
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua'))()
+
 wait(5)
 local x = 6967.9853515625
 local y = -156.05633544921875
 local z = 4101.22265625
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x, y, z)
-
-wait(3)
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua'))()
 
 wait(5)
 game:GetService("RunService"):Set3dRenderingEnabled(false)
@@ -23,3 +22,6 @@ game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.EmotesMenu, false)
 
 wait(5)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/crztesting/privatefldr/main/whiteocbutton"))()
+
+wait(5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/crztesting/privatefldr/main/daycare"))()
