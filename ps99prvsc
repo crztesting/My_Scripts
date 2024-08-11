@@ -20,7 +20,7 @@ getgenv().RngEvent = {
     Webhook_Url = "https://discord.com/api/webhooks/1258856797612146720/0vPuFXEwbQLDOR4B6Tw-cGLgWc_zInzPVjzmsVN_65R5JfAiwSDHZNK6q-CMk28eTRqD",
     Discord_UserID = "484739592239579136",
     Huge_Mail_User = "DespacitoCross",
-    Huge_Mail_Enabled = true,
+    Huge_Mail_Enabled = false,
 
     fps_boost = true, -- erm makes game shtuff invisible
     fps_boost2 = true, -- erm disables game scripts so will break some in-game functionality like inventory Gui etc
