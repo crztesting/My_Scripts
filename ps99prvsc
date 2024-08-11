@@ -1,21 +1,25 @@
-repeat wait() until game:IsLoaded()
-task.spawn(function()
-script_key="qqhIwBPsknrbWiacJtItZRfhxcQjCHCK";
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a2369ce34d44187610ac9bf5039c37ab.lua"))()
-end)
+getgenv().RngEvent = {
+    Selected_RngEgg = "First",
+    Rolling_Enabled = true,
+    Rolling_Delay = 0.1,
+    Visible_Rolling = false, -- Visible Rolling is Slower by ~1s; but you can see it :P
 
-task.spawn(function()
-    task.wait(5)
-local StarterGui = game:GetService('StarterGui')
-StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false)
+    Selected_Upgrades = {"RNGHugeLuck", "RNGEggLuck", "RNGHatchSpeed", "RNGBonusLuck"},
+    AutoUpgrades_Enabled = true,
+    AutoUpgrades_Delay = 5,
 
-game:GetService('StarterGui'):SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, false)
+    AutoMerchant_Enabled = true,
+    AutoMerchant_Delay = 5,
 
-game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.EmotesMenu, false)
-end)
+    Lucky_Dice_Enabled = true,
+    Lucky_Dice_Delay = 1,
+    Lucky_Dice_Config = {
+        ["Lucky Dice"] = {Craft = false, Use = true, Only_Use_If_Not_Active = true}, -- You cannot craft this dice; only buy with Merchant! if you change to true and complain ab error i will ban you
+        ["Lucky Dice II"] = {Craft = true, Use = false, Only_Use_If_Not_Active = false},
+        ["Mega Lucky Dice"] = {Craft = false, Use = false, Only_Use_If_Not_Active = false, Only_Use_If_Rolls_Ends_In = 9},
+        ["Mega Lucky Dice II"] = {Craft = false, Use = false, Only_Use_If_Not_Active = false, Only_Use_If_Rolls_Ends_In = 9},
+    },
 
-
-
-
-
-
+    print_all_info = false, -- Will Print All Egg & Upgrade Names; for future updates :P
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/661ba97429a1d20f02880d1e9eeced08.lua"))()
