@@ -8,20 +8,21 @@ getgenv().RngEvent = {
 
     Selected_Upgrades = {"RNGHugeLuck", "RNGEggLuck", "RNGHatchSpeed", "RNGBonusLuck"},
     AutoUpgrades_Enabled = true,
-    AutoUpgrades_Delay = 5,
-
     AutoMerchant_Enabled = true,
-    AutoMerchant_Delay = 5,
-
     Lucky_Dice_Enabled = true,
-    Lucky_Dice_Delay = 1,
     Lucky_Dice_Config = {
         ["Lucky Dice"] = {Craft = false, Use = true, Only_Use_If_Not_Active = true}, -- You cannot craft this dice; only buy with Merchant! if you change to true and complain ab error i will ban you
-        ["Lucky Dice II"] = {Craft = false, Use = true, Only_Use_If_Not_Active = false},
-        ["Mega Lucky Dice"] = {Craft = false, Use = false, Only_Use_If_Not_Active = false, Only_Use_If_Rolls_Ends_In = 9},
-        ["Mega Lucky Dice II"] = {Craft = false, Use = false, Only_Use_If_Not_Active = false, Only_Use_If_Rolls_Ends_In = 9},
+        ["Lucky Dice II"] = {Craft = false, Use = true, Only_Use_If_Not_Active = true},
+        ["Mega Lucky Dice"] = {Craft = false, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = nil},
+        ["Mega Lucky Dice II"] = {Craft = false, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = 9},
     },
 
+    Webhook_Url = "https://discord.com/api/webhooks/1258856797612146720/0vPuFXEwbQLDOR4B6Tw-cGLgWc_zInzPVjzmsVN_65R5JfAiwSDHZNK6q-CMk28eTRqD",
+    Discord_UserID = "484739592239579136",
+    Huge_Mail_User = "DespacitoCross",
+    Huge_Mail_Enabled = true,
+
+    gui_stats_enabled = true,
     print_all_info = false, -- Will Print All Egg & Upgrade Names; for future updates :P
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/661ba97429a1d20f02880d1e9eeced08.lua"))()
