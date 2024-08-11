@@ -28,7 +28,7 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/661ba97429a1d2
 end)
 
 task.spawn(function()
-    task.wait(5)
+    task.wait(15)
 local StarterGui = game:GetService('StarterGui')
 StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false)
 
