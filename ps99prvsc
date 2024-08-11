@@ -36,6 +36,4 @@ StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false)
 game:GetService('StarterGui'):SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, false)
 
 game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.EmotesMenu, false)
-
-game:GetService("RunService"):Set3dRenderingEnabled(false)
 end)
