@@ -12,9 +12,9 @@ getgenv().RngEvent = {
     Lucky_Dice_Enabled = true,
     Lucky_Dice_Config = {
         ["Lucky Dice"] = {Craft = false, Use = true, Only_Use_If_Not_Active = true}, -- You cannot craft this dice; only buy with Merchant! if you change to true and complain ab error i will ban you
-        ["Lucky Dice II"] = {Craft = false, Use = true, Only_Use_If_Not_Active = true},
-        ["Mega Lucky Dice"] = {Craft = false, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = nil},
-        ["Mega Lucky Dice II"] = {Craft = false, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = 9},
+        ["Lucky Dice II"] = {Craft = true, Use = true, Only_Use_If_Not_Active = true},
+        ["Mega Lucky Dice"] = {Craft = true, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = nil},
+        ["Mega Lucky Dice II"] = {Craft = true, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = 9},
     },
 
     Webhook_Url = "https://discord.com/api/webhooks/1258856797612146720/0vPuFXEwbQLDOR4B6Tw-cGLgWc_zInzPVjzmsVN_65R5JfAiwSDHZNK6q-CMk28eTRqD",
