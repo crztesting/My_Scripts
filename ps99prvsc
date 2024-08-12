@@ -1,7 +1,33 @@
 repeat wait() until game:IsLoaded()
 task.spawn(function()
-script_key="qqhIwBPsknrbWiacJtItZRfhxcQjCHCK";
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a2369ce34d44187610ac9bf5039c37ab.lua"))()
+getgenv().RngEvent = {
+    Selected_RngEgg = "First",
+    Rolling_Enabled = true,
+    Rolling_Delay = 0.1,
+    Visible_Rolling = false, -- Visible Rolling is Slower by ~1s; but you can see it :P
+
+    Selected_Upgrades = {"RNGHugeLuck", "RNGEggLuck", "RNGHatchSpeed", "RNGBonusLuck"},
+    AutoUpgrades_Enabled = true,
+    AutoMerchant_Enabled = true,
+    Lucky_Dice_Enabled = true,
+    Lucky_Dice_Config = {
+        ["Lucky Dice"] = {Craft = false, Use = true, Only_Use_If_Not_Active = true}, -- You cannot craft this dice; only buy with Merchant! if you change to true and complain ab error i will ban you
+        ["Lucky Dice II"] = {Craft = true, Use = true, Only_Use_If_Not_Active = true},
+        ["Mega Lucky Dice"] = {Craft = true, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = nil},
+        ["Mega Lucky Dice II"] = {Craft = true, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = 9},
+    },
+
+    Webhook_Url = "https://discord.com/api/webhooks/1258856797612146720/0vPuFXEwbQLDOR4B6Tw-cGLgWc_zInzPVjzmsVN_65R5JfAiwSDHZNK6q-CMk28eTRqD",
+    Discord_UserID = "484739592239579136",
+    Huge_Mail_User = "DespacitoCross",
+    Huge_Mail_Enabled = false,
+
+    fps_boost = true, -- erm makes game shtuff invisible
+    fps_boost2 = true, -- erm disables game scripts so will break some in-game functionality like inventory Gui etc
+    gui_stats_enabled = true,
+    print_all_info = false, -- Will Print All Egg & Upgrade Names; for future updates (mainly for kw devs) :P
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/661ba97429a1d20f02880d1e9eeced08.lua"))()
 end)
 
 task.spawn(function()
