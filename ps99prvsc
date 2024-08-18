@@ -7,7 +7,7 @@ getgenv().RngEvent = {
     Visible_Rolling = false, -- Visible Rolling is Slower by ~1s; but you can see it if you don't have gui enabled :P
 
     Selected_Upgrades = {"RNGHugeLuck", "RNGBonusLuck", "RNGEggLuck", "RNGExtraEgg", "RNGHatchSpeed"},
-    AutoUpgrades_Enabled = true,a
+    AutoUpgrades_Enabled = true,
     AutoMerchant_Enabled = true,
     AutoSellPets_Enabled = true,
     AutoSell_OnlyEventPets = true, -- if false, will sell any pet not only pets gained from event
