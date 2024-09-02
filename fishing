@@ -1,18 +1,28 @@
-getgenv().config = {
-    autoFish = true,
-    placetoFish = "AdvancedFishing",
-    autoPresents = true,
-    invisWater = true,
+repeat wait() until game:IsLoaded()
+task.spawn(function()
+getgenv().Fishing = {
+    Instance = "AdvancedFishing", -- Fishing or AdvancedFishing
 
-    autoClaimMail = false,
-    userToMail = "comer_item",
-    autoMail = true,
-    sendHuges = true,
-    sendShards = true,
+    Webhook = {
+        WebhookURL = "https://discord.com/api/webhooks/1257100198069669980/jdJvJucEdRBbnO0lhcgQ_WrWdu832KfT0y6CuKoWPAuvLRlr9U6S0DX3tu864Ex8RfwE",
+        UserID = 484739592239579136,
+        HugeWebhooks = true,
 
-    sendDiamonds = true,
-    minShards = 200,
-    minDiamonds = 3100000,
-    keepDiamonds = 100000,
+        AccountUpdateWebhooks = false,
+        AccountUpdateFrequency = 600,
+    },
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/02273c5629989a981ab347a090407970.lua"))()
+
+script_key="qqhIwBPsknrbWiacJtItZRfhxcQjCHCK";
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/60927caf7cf9fb3937d2a1b6a04f957d.lua"))()
+end)
+
+task.spawn(function()
+    task.wait(5)
+local StarterGui = game:GetService('StarterGui')
+StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false)
+
+game:GetService('StarterGui'):SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, false)
+
+game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.EmotesMenu, false)
+end)
