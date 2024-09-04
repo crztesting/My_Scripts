@@ -37,10 +37,3 @@ game:GetService('StarterGui'):SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, fal
 
 game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.EmotesMenu, false)
 end)
-
-task.spawn(function()
-_G.autoRankClaim = true
-_G.autoPetSlot = true
-_G.autoEggSlot = true
-loadstring(game:HttpGet("https://raw.githubusercontent.com/crztesting/scgoodef/main/rankclaimpetsloteggslot"))()
-end)
