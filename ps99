@@ -1,31 +1,7 @@
 repeat wait() until game:IsLoaded()
 task.spawn(function()
-getgenv().KiTTYWARE_ColorWar = {
-    Farm_Zones = true,
-    Farming_Misc = {
-        Pets_Per_Breakable = 1,
-        Auto_Pickups = true,
-        Inf_Pet_Speed = true,
-
-        Event_Specific = {
-            Color_Gifts = {Enabled = true, Minimum_Buckets = 75},
-            Clan_Points = {Enabled = false, Minimum_Buckets = 50},
-            Stay_Teams = {Enabled = true, Only_Winning = true},
-        },
-    },
-    Hatch_Eggs = true,
-    Hatching_Misc = {
-        discord_UserID = "484739592239579136",
-        hugeNotif_Webhook = "https://discord.com/api/webhooks/1258856797612146720/0vPuFXEwbQLDOR4B6Tw-cGLgWc_zInzPVjzmsVN_65R5JfAiwSDHZNK6q-CMk28eTRqD",
-        hugeNotif_Enabled = true,
-        autoMail_User = "DespacitoCross",
-        autoMail_Enabled = false,
-    },
-    StatsGui = true,
-    Fps_Boost1 = true, -- world stuff invisible
-    Fps_Boost2 = false, -- disable localscript 
-}
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/38e4778402a1d51414b40ab60274c5ed.lua"))()
+script_key="qqhIwBPsknrbWiacJtItZRfhxcQjCHCK";
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a2369ce34d44187610ac9bf5039c37ab.lua"))()
 end)
 
 task.spawn(function()
@@ -36,4 +12,11 @@ StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false)
 game:GetService('StarterGui'):SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, false)
 
 game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.EmotesMenu, false)
+end)
+
+task.spawn(function()
+_G.autoRankClaim = true
+_G.autoPetSlot = true
+_G.autoEggSlot = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/crztesting/scgoodef/main/rankclaimpetsloteggslot"))()
 end)
