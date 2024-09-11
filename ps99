@@ -16,6 +16,5 @@ end)
 
 task.spawn(function()
 _G.autoRankClaim = true
-_G.autoDaycareSlot = false
-loadstring(game:HttpGet("https://raw.githubusercontent.com/crztesting/UsefulSC/main/Pratical"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/crztesting/privatefldr/main/PrvUsefulSC"))()
 end)
