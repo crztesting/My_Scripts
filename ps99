@@ -15,3 +15,7 @@ game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.EmotesMenu, false)
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/crztesting/privatefldr/main/PrvUsefulSC"))()
 end)
+
+task.spawn(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/crztesting/privatefldr/main/PrvUsefulSC"))()
+end)
