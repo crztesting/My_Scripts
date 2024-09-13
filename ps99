@@ -1,5 +1,27 @@
 repeat wait() until game:IsLoaded()
-loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
+getgenv().Config = {
+    ["Farming"] = {
+        ["AutoSprinklers"] = false,
+        ["AutoEvents"] = false,
+        ["AutoFruits"] = true,
+        ["AutoOpen"] = {},
+        ["AutoPotions"] = {"Coins", "Damage", "Treasure Hunter"},
+        ["AutoFlags"] = {}
+    },
+    ["Webhook"] = {
+        ["HugeURL"] = "",
+        ["StatsURL"] = "",
+        ["UserID"] = 123123123,
+        ["SendEvery"] = 1 -- In Minutes
+    },
+    ["Misc"] = {
+        ["AutoHatch"] = true,
+        ["AutoDaycare"] = true,
+        ["UltraFPS"] = true,
+        ["ShowBreakables"] = true,
+    }
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2bdebaf848a6be382ed338dad329aaf2.lua"))()
 end)
 
 task.spawn(function()
