@@ -1,24 +1,21 @@
+repeat wait() until game:IsLoaded()
+task.spawn(function()
+script_key="qqhIwBPsknrbWiacJtItZRfhxcQjCHCK";
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a2369ce34d44187610ac9bf5039c37ab.lua"))()
+end)
 
-getgenv().Config = {
-    ["Farming"] = {
-        ["AutoSprinklers"] = false,
-        ["AutoEvents"] = false,
-        ["AutoFruits"] = true,
-        ["AutoOpen"] = {"", "", ""},
-        ["AutoPotions"] = {"Coins", "Damage", "Treasure Hunter"},
-        ["AutoFlags"] = {""}
-    },
-    ["Webhook"] = {
-        ["HugeURL"] = "",
-        ["StatsURL"] = "",
-        ["UserID"] = 123123123,
-        ["SendEvery"] = 1 -- In Minutes
-    },
-    ["Misc"] = {
-        ["AutoHatch"] = true,
-        ["AutoDaycare"] = true,
-        ["UltraFPS"] = true,
-        ["ShowBreakables"] = true,
-    }
-}
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2bdebaf848a6be382ed338dad329aaf2.lua"))()
+task.spawn(function()
+    task.wait(5)
+local StarterGui = game:GetService('StarterGui')
+StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false)
+
+game:GetService('StarterGui'):SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, false)
+
+game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.EmotesMenu, false)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/crztesting/privatefldr/main/PrvUsefulSC"))()
+end)
+
+task.spawn(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/crztesting/privatefldr/main/PrvUsefulSC"))()
+end)
