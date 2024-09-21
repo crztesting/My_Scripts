@@ -1,7 +1,7 @@
 repeat wait() until game:IsLoaded()
 task.spawn(function()
 script_key = "qqhIwBPsknrbWiacJtItZRfhxcQjCHCK";
-getgenv().LoadSettings = nil -- Replace 'nil' with Copied Settings if you want to import to other devices
+getgenv().LoadSettings = [[{"Inventory":{"Potions":{"UseMaxLevel":false,"Potion":[],"Use":false},"RandomEvents":{"Event":"","Use":false},"GiftBags":{"Gifts":[],"OpenSingle":false,"Use":false},"Spawnables":{"Item":"","Use":false},"Fruits":{"Fruit":[],"Use":false},"Buffs":{"Buffs":[],"Use":false},"Flags":{"Flag":"Shiny Flag","Use":false},"Lootbox":{"Lootbox":"None","Use":false}},"Hatching":{"Egg":"0 - Best Unlocked","MailUser":"Enter your Username.","Webhook":"Enter your Webhook Url.","Amount":0,"Start":false,"HugeNotif":false,"MailStart":false},"Optimization":{"World":false,"SkipSpin":true,"Startup":{"Instance":"","autoJoin":false,"BreakTime":5},"Drops":true,"Breakables":false,"HatchAnim":true,"Teleports":true,"PetSpeed":true,"Pets":false,"Scripts":false,"Items":true,"Machines":true,"Confetti":true,"Merchants":true,"Wheels":true,"Rendering":false},"Farming":{"Zone":"0 - Best Unlocked","DinoTycoonAutoHuge":false,"MovementMode":"Teleporting","PetsPerBreakable":3,"Flags":{"Flag":"Shiny Flag","Use":false},"DinoTycoonAutoBuy":false,"UseTNT":false,"Start":false,"DinoTycoonAutoChests":false,"ZoneMovement":false,"Ultimate":false},"UIScale":0.9,"Machines":{"Golden":false,"Rainbow":false,"Method":"All Available Pets","Fuse":false},"LoadSettings":true,"World":{"BuyUpgrades":false,"AutoWorld":false,"CollectRelics":false,"Instances":{"FlowerGarden":{"Seed":"None","Use":false},"Millionaire":{"MaxPercent":80,"Run":false,"MaxRoom":20}}}}]]
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/23521cea1cff5c0e428954401f395af3.lua"))()
 end)
 
