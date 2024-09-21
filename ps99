@@ -1,8 +1,6 @@
 repeat wait() until game:IsLoaded()
 task.spawn(function()
-script_key = "qqhIwBPsknrbWiacJtItZRfhxcQjCHCK";
-getgenv().LoadSettings = [[{"Inventory":{"Potions":{"Potion":["Coins","Damage","Treasure Hunter"],"UseMaxLevel":true,"Use":true},"RandomEvents":{"Event":"","Use":false},"GiftBags":{"Gifts":[],"OpenSingle":false,"Use":false},"Flags":{"Flag":"Shiny Flag","Use":false},"Spawnables":{"Item":"","Use":false},"Buffs":{"Use":false,"Buffs":[]},"Fruits":{"Use":true,"Fruit":["Watermelon","Candycane","Apple","Rainbow","Pineapple","Orange","Banana"]},"Lootbox":{"Use":false,"Lootbox":"None"}},"Farming":{"Zone":"0 - Best Unlocked","DinoTycoonAutoHuge":false,"MovementMode":"Teleporting","PetsPerBreakable":3,"Flags":{"Flag":"Shiny Flag","Use":false},"DinoTycoonAutoBuy":false,"UseTNT":false,"Start":true,"DinoTycoonAutoChests":false,"ZoneMovement":false,"Ultimate":true},"UIScale":0.9,"Optimization":{"SkipSpin":true,"HatchAnim":true,"Startup":{"Instance":"","autoJoin":false,"BreakTime":5},"Drops":true,"Breakables":false,"Wheels":true,"Merchants":true,"Machines":true,"Pets":true,"PetSpeed":true,"Items":true,"Scripts":false,"Confetti":true,"Teleports":true,"Rendering":false,"World":true},"Machines":{"Golden":false,"Rainbow":false,"Method":"All Available Pets","Fuse":false},"World":{"Instances":{"FlowerGarden":{"Use":false,"Seed":"None"},"Millionaire":{"Run":false,"MaxPercent":80,"MaxRoom":20}},"AutoWorld":false,"CollectRelics":false,"BuyUpgrades":false},"LoadSettings":true,"Hatching":{"Egg":"0 - Best Unlocked","MailUser":"DespacitoCross","Webhook":"https://discord.com/api/webhooks/1258856797612146720/0vPuFXEwbQLDOR4B6Tw-cGLgWc_zInzPVjzmsVN_65R5JfAiwSDHZNK6q-CMk28eTRqD","Amount":0,"Start":true,"HugeNotif":true,"MailStart":true}}]]
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/23521cea1cff5c0e428954401f395af3.lua"))()
+loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
 end)
 
 task.spawn(function()
