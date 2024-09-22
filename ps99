@@ -12,7 +12,7 @@ getgenv().KiTTYWARE_ElementalWorld = {
 
     discord_Webhook = "https://discord.com/api/webhooks/1258856797612146720/0vPuFXEwbQLDOR4B6Tw-cGLgWc_zInzPVjzmsVN_65R5JfAiwSDHZNK6q-CMk28eTRqD",
     discord_UserID = "484739592239579136",
-    mail_Enabled = true,
+    mail_Enabled = false,
     mail_Username = "DespacitoCross",
     Fps_Boost = true,
 }
