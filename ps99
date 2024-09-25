@@ -1,32 +1,7 @@
 repeat wait() until game:IsLoaded()
 task.spawn(function()
-getgenv().Config = {
-    ["Farming"] = {
-        ["AutoSprinklers"] = false,
-        ["AutoEvents"] = false,
-        ["AutoFruits"] = true,
-        ["AutoOpen"] = {"", "", ""},
-        ["AutoPotions"] = {"", "", "", ""},
-        ["AutoFlags"] = {""}
-    },
-    ["Webhook"] = {
-        ["HugeURL"] = "https://discord.com/api/webhooks/1258856797612146720/0vPuFXEwbQLDOR4B6Tw-cGLgWc_zInzPVjzmsVN_65R5JfAiwSDHZNK6q-CMk28eTRqD",
-        ["StatsURL"] = "",
-        ["UserID"] = "484739592239579136",
-        ["SendEvery"] = 15
-    },
-    ["Misc"] = {
-        ["AutoHatch"] = true,
-        ["AutoDaycare"] = true,
-        ["UltraFPS"] = true,
-    },
-    ["Elemental"] = {
-        ["AutoBuyUltraCubes"] = true,
-        ["AutoTrainerQuests"] = true,
-        ["AutoFarmChest"] = false,
-    }
-}
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2bdebaf848a6be382ed338dad329aaf2.lua"))()
+script_key="qqhIwBPsknrbWiacJtItZRfhxcQjCHCK";
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a2369ce34d44187610ac9bf5039c37ab.lua"))()
 end)
 
 task.spawn(function()
