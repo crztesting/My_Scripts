@@ -1,7 +1,7 @@
 repeat wait() until game:IsLoaded()
 task.spawn(function()
-script_key="qqhIwBPsknrbWiacJtItZRfhxcQjCHCK";
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a2369ce34d44187610ac9bf5039c37ab.lua"))()
+loadstring(game:HttpGet("https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua"))()
+
 end)
 
 task.spawn(function()
@@ -12,9 +12,4 @@ StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false)
 game:GetService('StarterGui'):SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, false)
 
 game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.EmotesMenu, false)
-end)
-
-task.spawn(function()
-    task.wait(10)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/crztesting/privatefldr/main/PrvUsefulSC"))()
 end)
