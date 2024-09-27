@@ -4,7 +4,7 @@ wait(30)
 
 _G.autoFusePet = true
 
-while _G.autoFusePet do task.wait(2)
+while _G.autoFusePet do task.wait(1)
     local args = {
         [1] = {
             ["37f747fae09c4013bb765ca28704cf55"] = 100
