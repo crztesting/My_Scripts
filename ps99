@@ -13,18 +13,3 @@ game:GetService('StarterGui'):SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, fal
 
 game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.EmotesMenu, false)
 end)
-
-task.spawn(function()
-    task.wait(10)
-_G.autoFusePet = true
-
-while _G.autoFusePet do task.wait(1)
-    local args = {
-        [1] = {
-            ["dbe5fe8de9b84ade9364df32ff825dd0"] = 50
-        }
-    }
-    
-    game:GetService("ReplicatedStorage").Network.FuseMachine_Activate:InvokeServer(unpack(args))
-end
-end)
