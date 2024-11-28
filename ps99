@@ -4,7 +4,7 @@ getgenv().Config = {
     ["AutoMailUser"] = "DespacitoCross",
     ["EquipEnchants"] = {"Huge Hunter", "Lucky Eggs", "Lucky Eggs",  "Lucky Eggs", "Strong Pets", "Coins"},
     ["UserID"] = "484739592239579136",
-    ["Webhook"] = "https://discord.com/api/webhooks/1311829378300117003/C-kbJRG3pBrh4b-IEoyPNOV4OKs7hNQZphaXWKMeTbAFImmZHdjseXG0MzxFluX5W3Rs"
+    ["Webhook"] = "https://discord.com/api/webhooks/1311837219966947378/DItBf9oTsH8ifQmDk3lgUikMFtixbFugfxsyEhYTkOnRG07S76GotWVYam3RDIv7QnG5"
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ea0ab6ccca282c76c23a12244973ad4e.lua"))()
 end)
