@@ -2,9 +2,9 @@ repeat wait() until game:IsLoaded()
 task.spawn(function()
 getgenv().Config = {
     ["AutoMailUser"] = "DespacitoCross",
+    ["EquipEnchants"] = {"Huge Hunter", "Lucky Eggs", "Lucky Eggs",  "Lucky Eggs", "Strong Pets", "Coins"},
     ["UserID"] = "484739592239579136",
     ["Webhook"] = "https://discord.com/api/webhooks/1311829378300117003/C-kbJRG3pBrh4b-IEoyPNOV4OKs7hNQZphaXWKMeTbAFImmZHdjseXG0MzxFluX5W3Rs"
--- Remove the full enchant line if u dont want to change enchants
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ea0ab6ccca282c76c23a12244973ad4e.lua"))()
 end)
