@@ -1,11 +1,7 @@
 repeat wait() until game:IsLoaded()
 task.spawn(function()
-getgenv().Config = {
-    ["AutoMailUser"] = "DespacitoCross",
-    ["UserID"] = "484739592239579136",
-    ["Webhook"] = "https://discord.com/api/webhooks/1311837219966947378/DItBf9oTsH8ifQmDk3lgUikMFtixbFugfxsyEhYTkOnRG07S76GotWVYam3RDIv7QnG5"
-}
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ea0ab6ccca282c76c23a12244973ad4e.lua"))()
+script_key="naGpaRzfXFvUjixafjXbFpdoLbLQOnSM";
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a2369ce34d44187610ac9bf5039c37ab.lua"))()
 end)
 
 task.spawn(function()
