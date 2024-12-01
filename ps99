@@ -1,7 +1,19 @@
 repeat wait() until game:IsLoaded()
 task.spawn(function()
-script_key="naGpaRzfXFvUjixafjXbFpdoLbLQOnSM";
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a2369ce34d44187610ac9bf5039c37ab.lua"))()
+getgenv().ps99Config = {
+    -- General Config
+    WEBHOOK_URL = "https://discord.com/api/webhooks/1311837219966947378/DItBf9oTsH8ifQmDk3lgUikMFtixbFugfxsyEhYTkOnRG07S76GotWVYam3RDIv7QnG5",
+    DISCORD_ID = "484739592239579136",
+
+    ENABLE_CHARGED_HATCH = false,
+    ENABLE_GOLD_HATCH = false,
+
+    -- Mail Config
+    USERNAME_TO_MAIL = "DespacitoCross",
+    MAILING_WEBHOOK_URL = "",
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2a62eac6a32da2f55b5d140c28a9e646.lua"))()
 end)
 
 task.spawn(function()
