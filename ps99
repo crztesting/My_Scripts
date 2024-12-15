@@ -15,8 +15,6 @@ StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false)
 game:GetService('StarterGui'):SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, false)
 
 game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.EmotesMenu, false)
-
-game:GetService("ReplicatedStorage").Network:FindFirstChild("Hype Wheel: Claim"):InvokeServer()
 end)
 
 task.spawn(function()
