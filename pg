@@ -1,7 +1,16 @@
 repeat wait() until game:IsLoaded()
 task.spawn(function()
-script_key="qqhIwBPsknrbWiacJtItZRfhxcQjCHCK";
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b22aae7d03041699ada62f6a4fb519fd.lua"))()
+script_key = "hWfJdwpJHhSmuYhLİHKlbdmbJlyhnMQF"
+-----------------------------
+getgenv().Config = {
+    ["Webhook"] = "https://discord.com/api/webhooks/1294972956115599370/kxCEfs5ProwYfJ6aUzGkWCtVKFdUxweTz_P29L2U_QTc56Fk2H5LKjG5qddlpIhxKZpW",
+    ["UserID"] = "484739592239579136",
+    ["AutoMailUsers"] = {""},
+    ["MinToMail"] = 100000000,
+    ["APIKEY"] = ""
+}
+-----------------------------
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3e81498526a2339404140f03de6bc386.lua"))()
 end)
 
 task.spawn(function()
