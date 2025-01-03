@@ -10,11 +10,11 @@ getgenv().Config = {
         ["Area"] = 234
     },
     
-    ["AutoOpen"] = false,
-    ["AutoBalloon"] = false, -- WANT A BAN? REPORT A BUG IN THIS SCRIPT.
+    ["AutoOpen"] = true,
+    ["AutoBalloon"] = true, -- WANT A BAN? REPORT A BUG IN THIS SCRIPT.
 
-    ["FPSBooster"] = false, -- REPORT NO SCRIPT BUGS.
-    ["UltraFPS"] = false, -- I WILL BAN YOU IF YOU REPORT ANY SCRIPT BUGS.
+    ["FPSBooster"] = true, -- REPORT NO SCRIPT BUGS.
+    ["UltraFPS"] = true, -- I WILL BAN YOU IF YOU REPORT ANY SCRIPT BUGS.
     ["Webhook"] = "https://discord.com/api/webhooks/1254544485724065833/TIklOf1UXvqPKiCpu80A8_BEwj42wj8B6xHP1Sk_bLD7fLo7i2fGX8j1CFeV2W8VS5q6", -- DO NOT REPORT ANY SCRIPT BUGS. WE KNOW ITS BUGGED.
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/177d65e916988f4b84dd21ed33a2aa91.lua"))()
