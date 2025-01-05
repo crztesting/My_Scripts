@@ -3,7 +3,7 @@ task.spawn(function()
 getgenv().Config = {
     ["Webhook"] = "https://discord.com/api/webhooks/1324207086724448257/XNnvzT25ImftRiwbN0wPJ3wRf1OAuHeyv5ujWPptOrESnZfN3KTW_fjrjLgsmtV7jpzS",
     ["UserID"] = "484739592239579136",
-    ["Instance"] = "Digsite", -- Digsite or AdvancedDigsite
+    ["Instance"] = "AdvancedDigsite", -- Digsite or AdvancedDigsite
     ["AutoMailUsers"] = {"DespacitoCross"}
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fe19d85877f65700134ca559ad130810.lua"))()
