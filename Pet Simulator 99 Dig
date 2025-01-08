@@ -1,7 +1,7 @@
 repeat wait() until game:IsLoaded()
 task.spawn(function()
 getgenv().Config = {
-    ["Webhook"] = "https://discord.com/api/webhooks/1324207086724448257/XNnvzT25ImftRiwbN0wPJ3wRf1OAuHeyv5ujWPptOrESnZfN3KTW_fjrjLgsmtV7jpzS",
+    ["Webhook"] = "https://discord.com/api/webhooks/1326606918013157397/MCzkcNW7NCAZ1gPjxnWrV9dFAJqVm8e1e1JGSUYPpRzzGVHYCU38YKLCX1arMKXa_XB5",
     ["UserID"] = "484739592239579136",
     ["Instance"] = "AdvancedDigsite", -- Digsite or AdvancedDigsite
     ["AutoMailUsers"] = {"DespacitoCross"}
